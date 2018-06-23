@@ -84,7 +84,7 @@ var handlers ={
 }
 exports.handler = function(event, context, callback){
     var alexa = Alexa.handler(event, context);
-    alexa.appId = "amzn1.ask.skill.2db42bde-5470-4abe-940d-0765ed926217";
+    alexa.appId = "amzn1.ask.skill.xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
     alexa.registerHandlers(handlers);
     alexa.execute();
 };

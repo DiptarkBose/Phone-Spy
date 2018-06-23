@@ -1,0 +1,15 @@
+{
+  "name": "phone-spy",
+  "version": "1.0.0",
+  "description": "An alexa-skill that tells you the name of your mystery caller!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diptark Bose",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "request": "^2.87.0"
+  }
+}
